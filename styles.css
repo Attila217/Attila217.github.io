@@ -1,0 +1,41 @@
+@font-face { font-family: Consolas; src: url(assets/consolas/CONSOLA.TTF); } 
+@font-face { font-family: Consolas; font-weight: bold; src: url(assets/consolas/CONSOLAB.TTF); }
+
+body {
+    background-image: url(assets/topography.png);
+    font-family: Consolas;
+ }
+nav {
+    background-color: #333333;
+}
+main, nav {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+h1 {
+    font-weight: bold;
+    line-height: 4rem;
+}
+section:first-of-type h1:first-of-type {
+    font-size: 3rem;
+    margin-top: 3rem;    
+}
+h3 {
+    line-height: 3rem;
+}
+a {
+    text-decoration: underline;
+}  
+a, h3 {
+    color: #ff0099;
+}
+hr {
+    border-color: rgb(255, 255, 255, 0);
+    height:4rem;
+    width: 4.2rem;
+}
+hr::after {
+    font-size: x-large;
+    content:"- - -";
+    vertical-align: -75%;
+}
